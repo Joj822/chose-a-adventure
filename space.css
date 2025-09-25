@@ -1,0 +1,27 @@
+body {
+  background: #111111
+}
+h1 {
+  color: #FFF900
+}
+p {
+  color: #FFF900
+}
+p.red {
+  color: rbg(255, 0, 0)
+}
+p.blue {
+  color: rbg(0, 0, 255)
+}
+a:link, a:visited {
+  background-color: rgb(168, 206, 63);
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
